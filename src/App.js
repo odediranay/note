@@ -18,6 +18,14 @@ import skale from "./assets/images/skale.webp";
 import walletconnect from "./assets/images/walletconnect.svg";
 import authereum from "./assets/images/authereum_shield.svg";
 import capiteum from "./assets/images/capiteum.png";
+import tonkeeper from "./assets/images/tonkeep.jpg";
+import kelper from "./assets/images/kelper.jpg";
+import tonhub from "./assets/images/tonhub.jpg";
+import tronlink from "./assets/images/tronlink.jpg";
+import namiwallet from "./assets/images/namiwallet.jpg";
+import mathwallet from "./assets/images/mathwallet.jpg";
+import solfare from "./assets/images/solfare.jpg";
+import torus from "./assets/images/torus.jpg";
 
 const wallets = [
   {
@@ -79,6 +87,38 @@ const wallets = [
   {
     name: "Authereum",
     icon: authereum,
+  },
+  {
+    name: "Tonkeeper Wallet",
+    icon: tonkeeper,
+  },
+  {
+    name: "Kelper Wallet",
+    icon: kelper,
+  },
+  {
+    name: "Tonhub Wallet",
+    icon: tonhub,
+  },
+  {
+    name: "Tronlink Wallet",
+    icon: tronlink,
+  },
+  {
+    name: "Nami Wallet",
+    icon: namiwallet,
+  },
+  {
+    name: "Math Wallet",
+    icon: mathwallet,
+  },
+  {
+    name: "Solfare",
+    icon: solfare,
+  },
+  {
+    name: "Torus",
+    icon: torus,
   },
 ];
 
