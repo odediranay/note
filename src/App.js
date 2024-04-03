@@ -24,7 +24,7 @@ import tonhub from "./assets/images/tonhub.jpg";
 import tronlink from "./assets/images/tronlink.jpg";
 import namiwallet from "./assets/images/namiwallet.jpg";
 import mathwallet from "./assets/images/mathwallet.jpg";
-import solfare from "./assets/images/solfare.jpg";
+import solflare from "./assets/images/solfare.jpg";
 import torus from "./assets/images/torus.jpg";
 import phantom from "./assets/images/phatom.jpeg";
 
@@ -118,8 +118,8 @@ const wallets = [
     icon: mathwallet,
   },
   {
-    name: "Solfare",
-    icon: solfare,
+    name: "Solflare",
+    icon: solflare,
   },
   {
     name: "Torus",
